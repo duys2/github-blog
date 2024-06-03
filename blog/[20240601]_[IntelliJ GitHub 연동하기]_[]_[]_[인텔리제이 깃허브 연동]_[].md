@@ -1,4 +1,4 @@
-# 2. IntelliJ와 GitHub 연동
+# IntelliJ와 GitHub 연동
 
 ## 인텔리제이와 깃허브 연동을 다시 한번 복습 겸 자바 프로젝트와 리포지토리를 새롭게 하나 생성 후 연동해 보았다.
 
@@ -6,7 +6,7 @@
 
 - 설명: 아무렇게나 생성하면 된다.
 
-_![1.png](../img/intellij_github/1.png)_
+![1.png](../img/intellij_github/1.png)
 
 ## 2) GitHub Repository 생성 후 주소 복사
 
