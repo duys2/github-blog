@@ -49,9 +49,9 @@
     - 보충 설명: 이번의 경우 .idea/ 와 java-learn.iml을 추가했다.
     - 보충 설명: 파일 내에 넣는 위치(라인)는 관계없다.
 
-![7-1.png./img/intellij_github/7-1.png)
+![7-1.png](img/intellij_github/7-1.png)
 
-![7-2.png./img/intellij_github/7-2.png)
+![7-2.png](img/intellij_github/7-2.png)
 
 ## 8) 추적된 파일 제외
 
@@ -69,7 +69,7 @@ git rm -r --cached .
 - 설명: 터미널에 git rm -rf --cached . 를 입력한다.
     - 보충 설명: r뒤에 f를 붙였다.
 
-![8-1.png./img/intellij_github/8-1.png)
+![8-1.png](img/intellij_github/8-1.png)
 
 ```bash
 git rm -rf --cached .
@@ -92,61 +92,61 @@ git branch -M main
     - 보충 설명: main 브랜치에서는 볼 수 없기에 기본 브랜치를 변경해준다.
     - 보충 설명: Settings → General → Default branch 에서 변경
 
-![9-1.png./img/intellij_github/9-1.png)
+![9-1.png](img/intellij_github/9-1.png)
 
 ## 10) 커밋 및 푸시
 
 - 설명: 이후 .gitignore 파일과 기타 소스 코드 파일을 커밋 후 푸시한다.
     - 보충 설명: 커밋하는 사진을 못 찍었다… 아래는 깃허브 리포지토리 페이지 결과 사진
 
-![10.png]/img/intellij_github/10.png)
+![10.png](img/intellij_github/10.png)
 
 ## 11) 파일 명 수정
 
 - 설명: 기존에 있던 Main 파일을 OnBoarding으로 이름을 바꾸었다.
 
-![11.png]/img/intellij_github/11.png)
+![11.png](img/intellij_github/11.png)
 
 ## 12) 커밋 및 푸시
 
 - 설명: OnBoarding 파일 수정한 내용을 커밋 후 푸시한다.
 
-![12.png]/img/intellij_github/12.png)
+![12.png](img/intellij_github/12.png)
 
 ## 13) 커밋 결과 확인
 
 - 설명: 잘 되어 있다.
 
-![13.png]/img/intellij_github/13.png)
+![13.png](img/intellij_github/13.png)
 
 ## 14) README.md 파일
 
 - 설명: 리포지토리에서 직접 리드미 파일을 생성 후 수정까지 해본다.
 
-![14.png]/img/intellij_github/14.png)
+![14.png](img/intellij_github/14.png)
 
 ## 15) 리드미 파일 가져오기
 
 - 설명: Git에서 페치를 한 후 풀… 까지 누른다.
     - 보충 설명: 페치 → 풀 순서
 
-![15.png]/img/intellij_github/15.png)
+![15.png](img/intellij_github/15.png)
 
 ## 16) 리드미 파일 수정
 
 - 설명: 리드미 파일을 수정해본다.
     - 보충 설명: 인텔리제이로 작업
 
-![16.png]/img/intellij_github/16.png)
+![16.png](img/intellij_github/16.png)
 
 ## 17) 변경사항 커밋
 
 - 설명: 리드미 파일 수정한 거 커밋
 
-![17.png]/img/intellij_github/17.png)
+![17.png](img/intellij_github/17.png)
 
 ## 18) 결과 확인
 
 - 설명: 리포지토리에 변경 사항이 잘 커밋되어 있는 것을 확인할 수 있다.
 
-![18.png]/img/intellij_github/18.png)
+![18.png](img/intellij_github/18.png)
