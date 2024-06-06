@@ -12,7 +12,7 @@ java -version
 javac -version
 ```
 
-![버전확인](img/java_compile/1.png)
+![버전확인](img/java_cmd_compile/1.png)
 
 정상적으로 설치되어 있다.
 
@@ -26,7 +26,7 @@ public class Hello {
 }
 ```
 
-![테스트 파일 생성](img/java_compile/2.png)
+![테스트 파일 생성](img/java_cmd_compile/2.png)
 
 C드라이브에 test 폴더를 생성 후 Hello.java를 생성했다.
 
@@ -36,7 +36,7 @@ C드라이브에 test 폴더를 생성 후 Hello.java를 생성했다.
 cd test
 ```
 
-![파일 찾아가기](img/java_compile/3.png)
+![파일 찾아가기](img/java_cmd_compile/3.png)
 
 디렉터리 찾아가기
 
@@ -46,7 +46,7 @@ cd test
 dir
 ```
 
-![파일 확인](img/java_compile/4.png)
+![파일 확인](img/java_cmd_compile/4.png)
 
 디렉터리 찾아가기
 
@@ -64,7 +64,7 @@ javac Hello.java
 dir
 ```
 
-![컴파일 후 파일 확인](img/java_compile/6.png)
+![컴파일 후 파일 확인](img/java_cmd_compile/6.png)
 
 컴파일러가 Hello.class라는 클래스 파일을 생성(보통은 소스 파일과 같은 디렉터리에 생성된다)한 것을 볼 수 있다.
 
@@ -76,12 +76,12 @@ java Hello.java
 java Hello
 ```
 
-![파일 실행](img/java_compile/7.png)
+![파일 실행](img/java_cmd_compile/7.png)
 
 뒤에 .java를 붙여도 안 붙여도 실행은 잘 된다. 이에 대해선 추후에 추가로 학습해 보자.
 
 ### 8. 마지막 폴더 내 파일 확인
 
-![파일 확인](img/java_compile/8.png)
+![파일 확인](img/java_cmd_compile/8.png)
 
 Hello.class 파일이 추가되어 있다.
