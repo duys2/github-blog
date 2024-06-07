@@ -30,12 +30,4 @@ System.out.println(random2.nextInt(10));
 
 위의 코드로 5번을 실행해 보았다.
 
-![1.png](img/random_seed/1.png)
-
-![2.png](img/random_seed/2.png)
-
-![3.png](img/random_seed/3.png)
-
-![4.png](img/random_seed/4.png)
-
-![5.png](img/random_seed/5.png)
+![1.png](../img/random_seed/1.png) ![2.png](../img/random_seed/2.png) ![3.png](../img/random_seed/3.png) ![4.png](../img/random_seed/4.png) ![5.png](../img/random_seed/5.png)
