@@ -23,4 +23,4 @@ git rm -rf --cached .
 5. 모든 파일 선택 후 커밋 및 푸시
 6. 결과
 
-![결과.png](img/github_ignore/3..png)
+![결과.png](img/github_ignore/3.png)
