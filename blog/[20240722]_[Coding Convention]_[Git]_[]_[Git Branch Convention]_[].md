@@ -1,6 +1,6 @@
 # Git Branch Convention
 
-### 1. Branch Structure
+## 1. Branch Structure
 
 ---
 
@@ -8,10 +8,10 @@
     
     Branch Type/Issue 번호 - Issue 명(기능 명)
 
-### 2. Branch Type
+## 2. Branch Type
 
 ---
-
+### 브랜치 전략: Git Flow
 ### Main Branch
     main(master) : 배포 가능한 상태의 결과물, release 타겟
     develop : 구현한 기능을 병합하기 위한 branch, 통합 폴더의 기능
@@ -25,7 +25,7 @@ hotfix/3-회원가입-버그
 ```
         
 
-### 3. Merge시 유의사항
+## 3. Merge시 유의사항
 
 ---
 
