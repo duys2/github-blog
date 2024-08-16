@@ -13,12 +13,15 @@
 ## 3) SQL이란?
 
     SQL은 Structured Query Language의 약자로 이름에서 알 수 있듯이 언어의 한 종류이다.
-    데이터베이스에서 데이터를 추가, 조회, 수정, 삭제하는데 사용
-    추가(Create), 조회(Read), 수정(Update), 삭제(Delete)의 앞 글자를 따 `CRUD`라고 부르기도 한다.
+
+    데이터베이스에서 데이터를 추가, 조회, 수정, 삭제하는데 사용한다.
+
+    추가(Create), 조회(Read), 수정(Update), 삭제(Delete)의 앞 글자를 따 'CRUD'라고 부르기도 한다.
+
     데이터를 정의, 조작 제어하는 목적에 따라 크게 세가지로 구분한다.
-    1. DDL(Data Definition Language)
-    2. DML(Data Manipulation Language)
-    3. DCL(Data Control Language)
+     1. DDL(Data Definition Language)
+     2. DML(Data Manipulation Language)
+     3. DCL(Data Control Language)
     
 | 속성 | 설명 | 주요 명령어 |
 | --- | --- | --- |
