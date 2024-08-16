@@ -1,8 +1,7 @@
 # Git Commit Convention
-
+---
 ## 1. Commit Message Structure
 ###  기본적인 커밋 메시지 구조
-    
 제목 ([Type] Subject) | 본문 (Body) | 꼬리말 (Footer)
     
     각 파트는 **빈 줄**을 두어 구분한다.  
@@ -11,7 +10,6 @@
 ```bash
 git commit -m "[Type] Subject" -m "Body" -m "Footer"
 ```
-
 ```bash
 git commit -m "[Type] Subject
 
@@ -22,7 +20,6 @@ Footer
 ```
 ## 2. Commit Type (Subject)
 ### 커밋의 타입 구성
-
 ‘[태그] 제목’으로 [] 뒤에만 공백을 넣는다.
 
 | Tag Name | Description |
@@ -62,7 +59,6 @@ Footer
     
     예시) Fixed → Fix
     
-
 ## 4. Body
     72글자 이내로 작성한다.
     최대한 상세히 작성한다. (코드 변경의 이유를 명확히 작성할수록 좋다)
