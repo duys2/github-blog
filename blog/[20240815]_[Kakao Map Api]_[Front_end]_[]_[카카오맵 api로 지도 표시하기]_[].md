@@ -1,28 +1,28 @@
 ## 1. 애플리케이션 추가하기
 
-![image.png](/img/kakao_map_api/1.png)
+![image.png](img/kakao_map_api/1.png)
 
 ## 2. 키 복사하기
 
 ### JavaScript 키 복사
 
-![image.png](/img/kakao_map_api/2.png)
+![image.png](img/kakao_map_api/2.png)
 
 ## 3. Web 플랫폼 등록
 
-![image.png](/img/kakao_map_api/3.png)
+![image.png](img/kakao_map_api/3.png)
 
-![image.png](/img/kakao_map_api/4png)
+![image.png](img/kakao_map_api/4png)
 
 ### Visual Studio Code의 Live Server를 사용할 것이므로 `http://127.0.0.1:5500` 입력 후 저장
 
 ## 4. [https://apis.map.kakao.com](https://apis.map.kakao.com/)에 접속 후 중앙의 Web 클릭
 
-![image.png](/img/kakao_map_api/5.png)
+![image.png](img/kakao_map_api/5.png)
 
 ## 5. 접속 후 좌측 메뉴에서 Sample 클릭
 
-![image.png](/img/kakao_map_api/6.png)
+![image.png](img/kakao_map_api/6.png)
 
 ## 6. 지도 생성하기
 
@@ -96,4 +96,4 @@
 </html>
 ```
 
-![image.png](/img/kakao_map_api/7.png)
+![image.png](img/kakao_map_api/7.png)
