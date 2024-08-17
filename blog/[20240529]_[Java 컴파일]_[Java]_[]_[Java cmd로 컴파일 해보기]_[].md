@@ -89,8 +89,8 @@ Hello.class 파일이 추가되어 있다.
 
     왜 이런 현상이 발생했을까? 이제부터 알아보자.
 
-    1. java Hello.java 명령어는 자바 소스 코드 파일(.java)을 컴파일하고 직접 실행한다. 이 경우 Java 컴파일러가 파일을 메모리에 로드하고 즉시 실행한다
+    1. java Hello.java 명령어는 자바 소스 코드 파일(.java)을 컴파일하고 직접 실행한다. 이 경우 Java 컴파일러가 파일을 메모리에 로드하고 즉시 실행한다.
     
     2. java Hello 명령어는 이미 컴파일된 클래스 파일(바이트코드 파일: Hello.class)을 직접 실행한다.
-### 결론
-    java Hello.java는 소스 파일을 즉시 실행하고, java Hello는 미리 컴파일된 클래스 파일을 실행한다. 위의 실습에서는 위에서 javac Hello.java라는 명령어로 인해 Hello.class라는 클래스 파일이 생성되었기에 java Hello 명령어를 실행해도 차이가 없는 것처럼 보였던 것이다.
+    
+    결론: java Hello.java는 소스 파일을 즉시 실행하고, java Hello는 미리 컴파일된 클래스 파일을 실행한다. 위의 실습에서는 위에서 javac Hello.java라는 명령어로 인해 Hello.class라는 클래스 파일이 생성되었기에 java Hello 명령어를 실행해도 차이가 없는 것처럼 보였던 것이다.
