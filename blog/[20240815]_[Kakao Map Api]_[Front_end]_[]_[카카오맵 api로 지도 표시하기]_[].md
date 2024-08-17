@@ -16,7 +16,8 @@ JavaScript 키 복사
 
 Visual Studio Code의 Live Server를 사용할 것이므로 `http://127.0.0.1:5500` 입력 후 저장
 
-## 4. https://apis.map.kakao.com (https://apis.map.kakao.com/)에 접속 후 중앙의 Web 클릭
+## 4. 아래의 링크에 접속 후 중앙의 Web 클릭
+https://apis.map.kakao.com
 
 ![image.png](img/kakao_map_api/5.png)
 
@@ -26,7 +27,7 @@ Visual Studio Code의 Live Server를 사용할 것이므로 `http://127.0.0.1:55
 
 ## 6. 지도 생성하기
 
-### 코드 복사 붙여넣기 후 appkey에 발급받은 키 입력
+코드 복사 붙여넣기 후 appkey에 발급받은 키 입력
 
 ```html
 <!DOCTYPE html>
