@@ -4,7 +4,7 @@
 
 ## 2. 키 복사하기
 
-### JavaScript 키 복사
+JavaScript 키 복사
 
 ![image.png](img/kakao_map_api/2.png)
 
@@ -14,9 +14,9 @@
 
 ![image.png](img/kakao_map_api/4png)
 
-### Visual Studio Code의 Live Server를 사용할 것이므로 `http://127.0.0.1:5500` 입력 후 저장
+Visual Studio Code의 Live Server를 사용할 것이므로 `http://127.0.0.1:5500` 입력 후 저장
 
-## 4. [https://apis.map.kakao.com](https://apis.map.kakao.com/)에 접속 후 중앙의 Web 클릭
+## 4. https://apis.map.kakao.com (https://apis.map.kakao.com/)에 접속 후 중앙의 Web 클릭
 
 ![image.png](img/kakao_map_api/5.png)
 
