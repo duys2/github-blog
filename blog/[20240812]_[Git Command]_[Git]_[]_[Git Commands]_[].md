@@ -91,7 +91,7 @@ git branch -M main
 git config --global init.defaultBranch main
 
 # 가장 최근 커밋의 메시지를 "새로운 커밋 메시지"로 수정
-git commit --amend -m "새로운 커밋 메시지"
+git commit --amend -m "New Commit Message"
 
 #  이미 추적 중인 모든 파일의 변경 사항을 자동으로 스테이징하고 커밋 메시지와 함께 커밋
 git commit -am "Commit Message"
