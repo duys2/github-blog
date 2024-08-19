@@ -52,7 +52,7 @@ git pull
 git log --all --decorate --oneline --graph
 
 # text.txt 파일을 원래 상태로 복원
-git restore text.txt 
+git restore text.txt
 
 # text.txt 파일을 원래 상태로 복원 (스테이징 전)
 git checkout -- text.txt
@@ -89,4 +89,10 @@ git branch -M main
 
 # 새로운 저장소를 초기화할 때 기본 브랜치 이름을 'main'으로 설정
 git config --global init.defaultBranch main
+
+# 가장 최근 커밋의 메시지를 "새로운 커밋 메시지"로 수정
+git commit --amend -m "새로운 커밋 메시지"
+
+#  이미 추적 중인 모든 파일의 변경 사항을 자동으로 스테이징하고 커밋 메시지와 함께 커밋
+git commit -am "Commit Message"
 ```
