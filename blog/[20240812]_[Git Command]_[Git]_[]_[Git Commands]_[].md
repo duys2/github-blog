@@ -39,6 +39,9 @@ git commit -m "first commit" # 커밋 타입은 편의상 생략
 # 원격 저장소에 변경 사항을 푸시
 git push
 
+# 원격 저장소 추가
+git remote add origin <원격 저장소 URL>
+
 # 지정한 원격 저장소와 브랜치에 변경 사항을 푸시
 git push <원격저장소명> <브랜치명>
 
