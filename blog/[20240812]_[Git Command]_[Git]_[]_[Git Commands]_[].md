@@ -98,4 +98,10 @@ git commit --amend -m "New Commit Message"
 
 #  이미 추적 중인 모든 파일의 변경 사항을 자동으로 스테이징하고 커밋 메시지와 함께 커밋
 git commit -am "Commit Message"
+
+# 현재의 브랜치에 develop의 변경사항 병합
+git merge develop
+
+# 원격 저장소의 develop 브랜치를 로컬로 가져오기 (로컬에 develop 생성 후 원격의 내용 저장)
+git fetch origin develop:develop
 ```
