@@ -13,8 +13,9 @@
     release : 배포 하기 전 내용을 QA(품질 검사)하기 위한 브랜치, main과 devlop에 병합
     hotfix : release 이후 버그가 발생 시 main(master)에서 분기 후 수정, main과 devlop에 병합
 ```
-feature/12-로그인
-hotfix/3-회원가입-버그
+feature/5-login
+release-1.1
+hotfix-1
 ```
 ## 3. Merge시 유의사항
     PR은 GitHub를 통해 수락
