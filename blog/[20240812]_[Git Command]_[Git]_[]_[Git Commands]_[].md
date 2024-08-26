@@ -104,4 +104,10 @@ git merge develop
 
 # 원격 저장소의 develop 브랜치를 로컬로 가져오기 (로컬에 develop 생성 후 원격의 내용 저장)
 git fetch origin develop:develop
+
+# .idea 디렉토리를 Git의 추적 대상에서 제외
+ git rm -r --cached .idea
+
+# 현재 디렉토리의 모든 파일을 Git 추적 대상에서 제외
+ git rm -rf --cached .
 ```
