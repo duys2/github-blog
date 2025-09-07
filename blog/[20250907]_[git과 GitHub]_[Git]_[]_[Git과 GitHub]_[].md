@@ -19,13 +19,13 @@
 
 ### 1-1) `바탕 화면/git-learn/ronaldo`경로에 `README.txt` 생성
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/c43c83ba-5131-4819-8fee-5a36e6639b54/Untitled.png)
+![1.png](img/git_github/1.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/68ec964c-4bec-4f0a-a89e-031aad856dfb/Untitled.png)
+![2.png](img/git_github/2.png)
 
 ### 1-2) 마우스 우클릭 후 메뉴에서 Git Bash Here 클릭
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/013627f8-1c89-4d24-936e-b9437ea46741/Untitled.png)
+![3.png](img/git_github/3.png)
 
 ### 1-3) Git 초기화
 
@@ -38,14 +38,14 @@ $ git init
 
 - ‘Initialized empty Git repository’라는 텍스트가 나오면 성공
 
-![~/OneDrive/바탕 화면/git-learn/ronaldo는 **현재** Git Bash가 **실행**되고 있는 내 컴퓨터의 경로](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/361c6f66-92c5-4cbe-adbf-0b06d715bb79/Untitled.png)
+![4.png](img/git_github/4.png)
 
 ~/OneDrive/바탕 화면/git-learn/ronaldo는 **현재** Git Bash가 **실행**되고 있는 내 컴퓨터의 경로
 
 - `.git` 폴더를 **로컬 저장소**라고 한다.
     - 하나의 폴더에는 하나의 .git(로컬 저장소)을 가져야 한다(충돌이 발생할 수 있다).
 
-![만약 .git 폴더가 보이지 않는다면 폴더의 상단 메뉴의 보기 란에서 **숨김 속성 체크**](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/3725f639-5b22-4f2b-a5c9-0985b7c9c41f/Untitled.png)
+![5.png](img/git_github/5.png)
 
 만약 .git 폴더가 보이지 않는다면 폴더의 상단 메뉴의 보기 란에서 **숨김 속성 체크**
 
@@ -112,13 +112,13 @@ git commit -m "commit message" # -m은 'message'의 약자
 git commit -m "[Feat] first commit"
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/03043814-4083-41f9-9793-2c7599ee4ea6/Untitled.png)
+![6.png](img/git_github/6.png)
 
 1 file changed, 1 insertion(+) 라는 메시지가 나오면 성공
 
 - 파일 수정 후 커밋하기
 
-![내용 수정](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/43a3f1a1-444f-4727-b1f9-ffb6821c8b93/Untitled.png)
+![7.png](img/git_github/7.png)
 
 내용 수정
 
@@ -128,7 +128,7 @@ git add README.txt
 git commit -m "[Docs] 파일 내용 수정"
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/69f4ea0c-99ba-4bc1-9837-f89d5910537e/Untitled.png)
+![8.png](img/git_github/8.png)
 
 1 file changed, 1 insertion(+), 1 deletion(-) 가 뜨면 성공
 
@@ -141,7 +141,7 @@ git commit -m "[Docs] 파일 내용 수정"
 git log
 ```
 
-![노랗게 표시된 commit … 부분이 ‘커밋 아이디’이다.](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/4b7dd210-247e-410f-ab04-b78549e6468b/Untitled.png)
+![9.png](img/git_github/9.png)
 
 노랗게 표시된 commit … 부분이 ‘커밋 아이디’이다.
 
@@ -156,11 +156,11 @@ git checkout 133c575
 
 - 파일 내용이 변경된 모습을 확인할 수 있다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/493fcc57-4214-40b4-8fed-37748904a09c/Untitled.png)
+![10.png](img/git_github/10.png)
 
 HEAD is now at 133c575 [Feat] first commit 가 보이면 성공
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/e75927e9-39c1-4619-a963-c2edf91798d7/Untitled.png)
+![11.png](img/git_github/11.png)
 
 ### 2-4) 최신 커밋으로 돌아가기
 
@@ -171,9 +171,9 @@ HEAD is now at 133c575 [Feat] first commit 가 보이면 성공
 git checkout - # -는 "직전에 체크아웃했던 브랜치 또는 커밋"을 의미
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/9dfbe8db-0aa3-4ac2-8e4a-dd5d224c759d/Untitled.png)
+![12.png](img/git_github/12.png)
 
-![복구된 모습](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/51708d60-36e7-4930-807b-a6f8b592914b/Untitled.png)
+![13.png](img/git_github/13.png)
 
 복구된 모습
 
@@ -191,7 +191,7 @@ git checkout - # -는 "직전에 체크아웃했던 브랜치 또는 커밋"을 
 
 - GitHub에서 원격 저장소를 **레포지토리(Repository)**라고 부른다.
 
-![레포지토리 생성](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/5e5b03c7-b8d4-4bf0-82c3-6af175286026/Untitled.png)
+![14.png](img/git_github/14.png)
 
 레포지토리 생성
 
@@ -225,7 +225,7 @@ git remote add origin https://github.com/duys2/git-learn.git
 git branch -M main
 ```
 
-![잘 변경되었다.](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/ab41ab2a-ae95-4d28-a121-3c742e7c9067/Untitled.png)
+![15.png](img/git_github/15.png)
 
 잘 변경되었다.
 
@@ -236,11 +236,11 @@ git branch -M main
 git push origin main
 ```
 
-![이렇게 100% 완료 메시지가 나오면 성공](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/f9ddbc10-ee75-447d-8f12-50dd37efe117/Untitled.png)
+![16.png](img/git_github/16.png)
 
 이렇게 100% 완료 메시지가 나오면 성공
 
-![잘 올라가 있는 모습](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/592283e5-9045-42df-be03-82b5dc26c4d5/Untitled.png)
+![17.png](img/git_github/17.png)
 
 잘 올라가 있는 모습
 
@@ -258,7 +258,7 @@ git push origin main
 git clone <원격 저장소 주소> .
 ```
 
-![원격 저장소 주소](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/9aa11877-1191-42c3-87a3-068e1287fb78/Untitled.png)
+![18.png](img/git_github/18.png)
 
 원격 저장소 주소
 
@@ -266,11 +266,11 @@ git clone <원격 저장소 주소> .
 git clone https://github.com/duys2/git-learn.git .
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/730b5681-ad48-4852-80f8-fce7efc9de94/Untitled.png)
+![19.png](img/git_github/19.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/4417a5f0-1c2f-4328-bb2e-59a577aa1f1a/Untitled.png)
+![20.png](img/git_github/20.png)
 
-![클론 완료](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/e1768e51-4e54-4311-8e7e-7995dcc03d1d/Untitled.png)
+![21.png](img/git_github/21.png)
 
 클론 완료
 
@@ -278,7 +278,7 @@ git clone https://github.com/duys2/git-learn.git .
 
 - 파일 확장자 변경 후 파일 내용 수정 (`.txt` → `.md`)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/492b558c-a0cf-4c15-87db-10c7094f77a9/Untitled.png)
+![22.png](img/git_github/22.png)
 
 - `git add .` 명령어 사용
 
@@ -287,7 +287,7 @@ git clone https://github.com/duys2/git-learn.git .
 git add .
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/f8eaa5ca-8861-4f55-a09f-2192665fc028/Untitled.png)
+![23.png](img/git_github/23.png)
 
 - 커밋하기
 
@@ -295,7 +295,7 @@ git add .
 git commit -m "[Docs] 파일 확장자 변경 및 내용 수정"
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/2468c385-e9e1-4ac2-9f9c-905d05508540/Untitled.png)
+![24.png](img/git_github/24.png)
 
 - 푸시하기
 
@@ -303,9 +303,9 @@ git commit -m "[Docs] 파일 확장자 변경 및 내용 수정"
 git push origin main
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/6a0aa709-5b16-4795-83cb-da8dae7739f4/Untitled.png)
+![25.png](img/git_github/25.png)
 
-![잘 올라가 있다.](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/59ae44e1-5817-46ef-a180-9ac083001a02/Untitled.png)
+![26.png](img/git_github/26.png)
 
 잘 올라가 있다.
 
@@ -319,9 +319,9 @@ git push origin main
 git pull origin main
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/bca5aafc-47be-49d0-8e5f-d9aa2b6b85c0/Untitled.png)
+![27.png](img/git_github/27.png)
 
-![정상 적용되었다.](https://prod-files-secure.s3.us-west-2.amazonaws.com/5598c818-b1e9-40a6-9c9b-e6cecaee414e/d4bb98d7-16f8-4592-94d7-f17cb83a1922/Untitled.png)
+![28.png](img/git_github/28.png)
 
 정상 적용되었다.
 
